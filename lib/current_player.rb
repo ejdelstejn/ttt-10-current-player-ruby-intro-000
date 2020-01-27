@@ -4,8 +4,8 @@ def turn_count(board)
     if item == "X" || "O"
       counter += 1
     end
-  return counter
   end
+  return counter
 end
 
 def current_player(board)
